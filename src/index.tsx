@@ -9,11 +9,13 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Hello />
-    <img
-      width="300px"
-      alt="ロボ"
-      src="https://pub-2bd59cbf6aa945ccb5be264034c2e267.r2.dev/F2DMDBkaEAAkU3I.jpeg" />
+    <div className="container mx-auto pt-2 px-2">
+      <Hello />
+      <img
+        width="300px"
+        alt="ロボ"
+        src="https://pub-2bd59cbf6aa945ccb5be264034c2e267.r2.dev/F2DMDBkaEAAkU3I.jpeg" />
+    </div>
   </React.StrictMode>
 );
 

@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-05-18 -- bun start",
+    "pages:dev": "wrangler pages dev -- bun start",
     "pages:deploy": "bun run build && wrangler pages deploy ./build"
   },
   "eslintConfig": {
@@ -43,6 +43,9 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
     "wrangler": "^3.17.1"
   }
 }
