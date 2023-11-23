@@ -10,8 +10,8 @@ root.render(
     <Hello />
     <img
       width="300px"
-      src="https://pub-2bd59cbf6aa945ccb5be264034c2e267.r2.dev/F2DMDBkaEAAkU3I.jpeg">
-    </img>
+      alt="ロボ"
+      src="https://pub-2bd59cbf6aa945ccb5be264034c2e267.r2.dev/F2DMDBkaEAAkU3I.jpeg" />
   </React.StrictMode>
 );
 
