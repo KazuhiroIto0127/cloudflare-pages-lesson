@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Hello from './components/Hello.tsx';
+import reportWebVitals from './reportWebVitals.js';
+import Hello from './components/Hello';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 root.render(
   <React.StrictMode>
     <Hello />

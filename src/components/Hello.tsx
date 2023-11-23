@@ -7,7 +7,12 @@ export default function MyHelloBtn(){
       const data = await response.json();
       alert(JSON.stringify(data));
     } catch (error) {
-      alert('エラーが発生しました: ' + error.message);
+      if (error instanceof Error) {
+        alert('エラーが発生しました: ' + error.message);
+      } else {
+        // errorがErrorインスタンスではない場合の処理
+        alert('予期せぬエラーが発生しました');
+      }
     }
   }
 
