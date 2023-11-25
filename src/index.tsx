@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals.js';
 import Hello from './components/Hello';
+import HelloFromOtherWorker from './components/HelloFromOtherWorker';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,6 +16,7 @@ root.render(
         width="300px"
         alt="ロボ"
         src="https://pub-2bd59cbf6aa945ccb5be264034c2e267.r2.dev/F2DMDBkaEAAkU3I.jpeg" />
+      <HelloFromOtherWorker />
     </div>
   </React.StrictMode>
 );
